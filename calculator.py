@@ -26,6 +26,7 @@ def clear():
     equation_field.delete(1.0, 'end')
 
 root = tk.Tk()
+root.resizable(False, False)
 root.title('Calculator')
 root.geometry('293x275')
 
